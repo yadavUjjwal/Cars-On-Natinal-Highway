@@ -15,8 +15,7 @@ of cars to the left of car r at time t.
 6. int count right(int r, int t):Same as above, except left is replaced by right.
 7. int number of crossings(int r, int t): Assume t is greater than current time, and no car enters or leaves the highway between current time and future time t.Return the total number of cars which (i) are traveling in the opposite direction to the car with registration number r, and (ii) cross the car with registration number r between current time and future time t.
 
-
-SAMPLE INPUT:
+INPUT FORMAT:
 To run a command for n (=5) functions, the following format is followed: 
 NUMBER OF COMMANDS -> 5
                       1 3 1.2 2.5 7
